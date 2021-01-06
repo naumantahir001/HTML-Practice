@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+h1 {
+    color: #4267b2;
+    font-size: 100px;
+}
+
+h3 {
+    color: Black;
+    font-size: 25px;
+}
+
+div.text {
+    padding: 5%;
+    margin-top: 50px;
+    position: relative;
+    float: left;
+    width: 450px;
+    Height: 300px;
+}
+
+div.formbody {
+    position: absolute;
+    float: right;
+    margin-left: 60%;
+    margin-top: 150px;
+    padding: 2%;
+    border: honeydew;
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px rgb(115, 116, 115);
+    width: 396px;
+    Height: 300px;
+    background-color: white;
+    text-align: center;
+    z-index: -1;
+}
+
+.form {
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnlogin {
+    background-color: #5176c0;
+    color: aliceblue;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.btncreate {
+    background-color: rgb(48, 231, 48);
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    border: 3px solid rgb(216, 214, 214);
+    border-radius: 5px;
+}
+
+input[type="password"] {
+    width: 300px;
+    height: 30px;
+    border: 3px solid rgb(216, 214, 214);
+    border-radius: 5px;
+}
+
+a {
+    font-size: 17px;
+    color: #4267b2;
+    text-decoration: none;
+}
+
+.last {
+    position: absolute;
+    z-index: -1;
+    color: black;
+}
+
+input[type="text"]:hover {
+    border: 3px solid #4267b2;
+}
+
+input[type="password"]:hover {
+    border: 3px solid #4267b2;
+}
+
+p {
+    font-size: 20px;
+}
+
+.name {
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4267b2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 10px rgb(28, 236, 9);
+}
+
+.named {
+    position: absolute;
+    float: right;
+    padding: 2%;
+    width: 350px;
+    Height: 100px;
+    border: rgb(85, 219, 85);
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px rgb(115, 116, 115);
+    background-color: honeydew;
+    z-index: -1;
+}

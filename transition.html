@@ -1,0 +1,31 @@
+<html>
+<title>transitions plus box</title>
+<head><style>
+
+.box{width:400; height:400; background: red;
+transition-duration: 2s;
+transition-property: background;}
+.box:hover{background:grey; width:400; height:400;}
+.parent{position:relative; height:50;  background: red;}
+.child{position:absolute; width:50; height:50; top:0; left:0; background: black;
+transition-duration:3s;
+transition-property: left;
+transition-time-function: ease-in-out;
+}
+
+.parent:hover .child{
+left: calc(100% - 50px);
+}
+</style></head>
+<body>
+<div class="box">
+</div><br>
+
+<div class="parent">
+<div class="child"></div>
+</div>
+
+
+
+</body>
+</html>
